@@ -45,7 +45,6 @@ Partners will be referred to as partner1 and partner2.
 - merge the pull request from the GitHub interface
 
 
-
 ### Part 2
 
 **With partner2 driving**:
@@ -83,3 +82,7 @@ Nothing to turn into the instructors, but you should have two separate GitHub re
 - [Git documentation](https://git-scm.com/documentation)
 - [Forking on github](https://help.github.com/articles/fork-a-repo/)
 - [Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
+- [How to use Source Control with Xcode and iOS 7](https://www.raywenderlich.com/51351/how-to-use-git-source-control-with-xcode-in-ios-7) 
+
+
+> Note: This tutorial is written in Objective-C but don't worry, you'll still be able to understand! And it's good practice to be able to read through Objective-C
