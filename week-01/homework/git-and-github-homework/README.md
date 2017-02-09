@@ -26,7 +26,7 @@ By the end of this exercise, you should have the ability to retrieve and submit 
 
 #### Starter code
 
-Here is the [starter code for this assignment](https://github.com/generalassembly-studio/iOSI-course-materials/tree/master/curriculum/04-schedule-and-supplies/week-01/baseline-materials/git-and-github-homework).
+Here is the [starter code for this assignment](starter-code).
 
 #### Deliverable
 
