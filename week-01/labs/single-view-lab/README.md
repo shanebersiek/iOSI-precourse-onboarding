@@ -15,7 +15,7 @@ creator:
 > ***Note:*** _This can be a pair programming activity or done independently._
 
 #### What we are doing
-In this lab, we will be recreating the basic Instagram look. You will practice importing images into XCode, adding UI Views to your App, and styling them to spec.
+In this lab, we will be recreating the basic Instagram look. You will practice importing images into Xcode, adding UI Views to your App, and styling them to spec.
 
 
 #### Why we are doing it.
@@ -33,7 +33,7 @@ Using the provided starter project:
 
 ### Starter code
 
-Open the [provided project](starter-code) with XCode to get started.
+Open the [provided project](starter-code) with Xcode to get started.
 
 ### Deliverable
 
@@ -59,4 +59,4 @@ The expected Deliverable should look like this:
 
 + [Official Apple Developer Website](https://developer.apple.com/library/ios/navigation/)
 + [Apple's Human Interface Guidelines](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/)
-+ [XCode's Interface Builder](https://developer.apple.com/library/ios/recipes/xcode_help-interface_builder/Chapters/AboutInterfaceBuilder.html)
++ [Xcode's Interface Builder](https://developer.apple.com/library/ios/recipes/Xcode_help-interface_builder/Chapters/AboutInterfaceBuilder.html)
