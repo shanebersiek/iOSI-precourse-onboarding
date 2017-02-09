@@ -10,9 +10,9 @@ editor:
 	city: SF
 ---
 
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Developer Documentation Lab
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Developer Documentation Exercise
 
-> ***Note:*** _This is a group lab._
+> ***Note:*** _This is a group exercise._
 
 Practice using Developer Documentation to find answers to problems you encounter! This lab is broken into **3** group assignments. The first will have you use elements from `UIKit`. Next, you'll practice asking and answering questions that others will be able to understand. Finally, you'll learn a new class in Swift and developer documentation to teach yourself the `UISwitch`!
 
@@ -60,7 +60,7 @@ In the past week, you have likely run into a problem:
 
 - Ask questions! Let's get everything out.
 - What hurt? What felt great?
-- What was the largest takeaway for you from this lab?
+- What was the largest takeaway for you from this exercise?
 
 #### Starter code
 
