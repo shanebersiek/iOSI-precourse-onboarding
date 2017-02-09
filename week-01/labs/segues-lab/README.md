@@ -43,7 +43,7 @@ Using the starter project provided:
 
 ### Starter code
 
-Using XCode, open the [project provided](starter-code) to get started.
+Using Xcode, open the [project provided](starter-code) to get started.
 
 ## Solution Code
 
@@ -85,4 +85,6 @@ The deliverables should look like this:
 
 + [Official Apple Developer Website](https://developer.apple.com/library/ios/navigation/)
 + [Apple's Human Interface Guidelines](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/)
-+ [XCode's Interface Builder](https://developer.apple.com/library/ios/recipes/xcode_help-interface_builder/Chapters/AboutInterfaceBuilder.html)
++ [Xcode's Interface Builder](https://developer.apple.com/library/ios/recipes/Xcode_help-interface_builder/Chapters/AboutInterfaceBuilder.html)
++ [Storyboards Tutorial in iOS 9: Part 1](https://www.raywenderlich.com/113388/storyboards-tutorial-in-ios-9-part-1)
++ [Storyboards Tutorial in iOS 9: Part 2](https://www.raywenderlich.com/113394/storyboards-tutorial-in-ios-9-part-2)
