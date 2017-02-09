@@ -48,7 +48,7 @@ The expected Deliverable should look like this:
 
 + Import the "<img src="assets/Heart@1x.png" width="25"></img>" image from the [assets](assets) folder into the assets file
 + Add many hearts in random places on top of the image to show your love
-+ Run the App on a real iPhone 6
++ Run the App on a real iPhone
 + Using the real Instagram App as reference, get the look as close as possible to the original
 
 
