@@ -14,7 +14,7 @@ creator:
 
 ### What we are doing
 
-In this lab, we will use XCode to run an App on a real iOS Device. You will also practice setting an App's Icon and creating a Launch Screen.
+In this lab, we will use Xcode to run an App on a real iOS Device. You will also practice setting an App's Icon and creating a Launch Screen.
 > ***Note:*** _This can be done independently or a pair programming activity, especially for students who do not have real devices on-hand._
 
 
@@ -71,7 +71,7 @@ The expected deliverables should look like this.
 + Create a unique Launch Screen and show your design skills.
 + Create and import your own App Icon.
 + Run this on an iPad (use the Simulator if you don't have one).
-+ Run the [Segues Lab](https://github.com/generalassembly-studio/iosi-course-materials/tree/master/curriculum/04-schedule-and-supplies/week-01/baseline-materials/segues-lab) on a real iPhone.
++ Run the [Segues Lab](../segues-lab) on a real iPhone.
 
 
 # Additional Resources
