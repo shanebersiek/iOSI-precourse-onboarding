@@ -14,21 +14,21 @@ creator:
 
 ### What we are doing
 
-In this lab, we will create and experiment with XCode Playgrounds and take our first foray into writing Swift Code.
+In this lab, we will create and experiment with Xcode Playgrounds and take our first foray into writing Swift Code.
 
 > ***Note:*** _This Lab is designed to be done independently._
 
 
 ### Why we are doing it
 
-XCode Playgrounds allows you to write and test code quickly and cheaply. This is valuable when you want to learn how to use a new Library, Framework, or Swift feature without having to create an entire App.
+Xcode Playgrounds allows you to write and test code quickly and cheaply. This is valuable when you want to learn how to use a new Library, Framework, or Swift feature without having to create an entire App.
 
 
 ## Exercise
 
 ### Requirements
 
-+ Create a new Playgrounds Project in XCode
++ Create a new Playgrounds Project in Xcode
 
 + Say something about yourself using the `print()` command
 
@@ -71,3 +71,5 @@ Solution code can be found in [solution-code](solution-code).
 + [Official Apple Developer Website](https://developer.apple.com/library/ios/navigation/)
 + [Swift Playgrounds](http://www.apple.com/swift/playgrounds/)
 + [Downloading an Image from the Web](http://stackoverflow.com/a/27517280)
++ [Swift Tutorial Part 1: Variables & Constants](https://www.raywenderlich.com/143771/swift-tutorial-part-1-expressions-variables-constants)
++ [Swift Tutorial Part 2: Types & Operations](https://www.raywenderlich.com/143885/swift-tutorial-part-2-types-operations)
