@@ -1,10 +1,13 @@
 ---
 title: Using Developer Documentation
-type: lab
-duration: "1:25"
+type: Morning Exercise
+duration: "1:00"
 creator:
     name: James Traver
     city: CHI
+editor:
+	name: Richard Ash
+	city: SF
 ---
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Developer Documentation Lab
