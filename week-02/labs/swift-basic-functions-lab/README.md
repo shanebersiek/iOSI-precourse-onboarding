@@ -34,8 +34,7 @@ Using a new Playgrounds project, solve the following problems
 
 **Basic**
 
-- [ ] Mercury
-- [ ] Write a function that takes a name, and prints "Hello, " + name
+- Write a function that takes a name, and prints "Hello, " + name
 > For example, 
 > 
 	```js
