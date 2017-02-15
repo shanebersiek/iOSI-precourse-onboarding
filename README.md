@@ -5,6 +5,7 @@
 This repository contains all the homework and labs for the course. Like the materials repository, we've organized the labs & homeworks by week. Check out week-01 [here](week-01)!
 
 - [Week 1](week-01)
+- [Week 2](week-02)
 
 
 ##Repo Structure and Use

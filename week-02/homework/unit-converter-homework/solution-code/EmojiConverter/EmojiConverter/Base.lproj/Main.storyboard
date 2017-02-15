@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EmojiConverter" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter a word" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="acQ-fN-kLj">
+                                <rect key="frame" x="249" y="342" width="102" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="lEq-De-Bta"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Feh-9b-oma">
+                                <rect key="frame" x="0.0" y="223" width="600" height="41"/>
+                                <string key="text">🙃 Emoji translator! 🐝
+Enter a word to translate into an emoji</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xCc-Ee-7yC">
+                                <rect key="frame" x="268" y="395" width="64" height="30"/>
+                                <state key="normal" title="Translate"/>
+                                <connections>
+                                    <action selector="didTapTranslate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fo3-2Q-zQA"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="07m-ft-Hnz">
+                                <rect key="frame" x="0.0" y="271" width="600" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="7pz-hJ-Vmx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xCc-Ee-7yC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1EE-TE-dyH"/>
+                            <constraint firstItem="acQ-fN-kLj" firstAttribute="top" secondItem="07m-ft-Hnz" secondAttribute="bottom" constant="13" id="7X9-1z-82Q"/>
+                            <constraint firstItem="Feh-9b-oma" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Dz1-UL-Ih7"/>
+                            <constraint firstItem="xCc-Ee-7yC" firstAttribute="top" secondItem="acQ-fN-kLj" secondAttribute="bottom" constant="23" id="GeF-rv-fau"/>
+                            <constraint firstItem="Feh-9b-oma" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hur-3d-oQZ"/>
+                            <constraint firstItem="07m-ft-Hnz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Jlf-cL-V5r"/>
+                            <constraint firstItem="07m-ft-Hnz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="KcA-Ui-AjY"/>
+                            <constraint firstItem="07m-ft-Hnz" firstAttribute="top" secondItem="Feh-9b-oma" secondAttribute="bottom" constant="7" id="VSw-xb-xBx"/>
+                            <constraint firstItem="acQ-fN-kLj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vd2-Rz-Kt1"/>
+                            <constraint firstAttribute="trailing" secondItem="Feh-9b-oma" secondAttribute="trailing" id="YU5-bn-wc5"/>
+                            <constraint firstAttribute="trailing" secondItem="07m-ft-Hnz" secondAttribute="trailing" id="iGO-lM-oMc"/>
+                            <constraint firstItem="07m-ft-Hnz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nCv-rO-Nyt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="resultLabel" destination="07m-ft-Hnz" id="kM8-ek-reU"/>
+                        <outlet property="textField" destination="acQ-fN-kLj" id="SQp-cb-71B"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="429"/>
+        </scene>
+    </scenes>
+</document>
