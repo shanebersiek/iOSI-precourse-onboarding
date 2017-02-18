@@ -30,16 +30,4 @@ Temporary Items
 
 # End of https://www.gitignore.io/api/macos
 
-/week-02/labs/arrays-lab/solution-code/
-/week-02/labs/dictionaries-lab/solution-code/
-/week-02/labs/iboutlets-ibactions-lab/solution-code/
-/week-02/labs/object-oriented-programming-lab/solution-code/
-/week-02/labs/swift-basic-functions-lab/solution-code/
-/week-02/labs/swift-advanced-functions-lab/solution-code/
-/week-02/labs/swift-optionals-lab/solution-code/
-/week-02/labs/swift-optionals-lab/solution-code/
-/week-02/labs/swift-strings-lab/solution-code/
-/week-02/labs/writing-classes-lab/solution-code/
-/week-02/homework/unit-converter-homework/solution-code/
-/week-02/homework/swift-optionals-homework/solution-code/
-/week-02/homework/object-oriented-progamming-homework/solution-code/
+/week-02/**/solution-code/**
