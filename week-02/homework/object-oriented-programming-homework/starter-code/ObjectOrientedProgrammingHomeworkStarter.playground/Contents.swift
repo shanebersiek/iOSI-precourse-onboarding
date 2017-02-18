@@ -11,23 +11,25 @@ import XCTest
 
 // Here's a class, a dog with a name
 class Dog {
-    fileprivate var name: String
-    fileprivate var barkSound = "bark!"
-    init(name: String) {
-        self.name = name
+  fileprivate var name: String
+  fileprivate var barkSound = "bark!"
+  init(name: String) {
+    self.name = name
+  }
+  
+  func bark() {
+    print(self.barkSound)
+  }
+  
+  static func configureDog(_ dog: Dog, withName name: String, barkSound: String? = nil) {
+    dog.name = name
+    if let barkSound = barkSound {
+      dog.barkSound = barkSound
     }
-    
-    func bark() {
-        print(self.barkSound)
-    }
-    
-    static func configureDog(_ dog: Dog, withName name: String, barkSound: String? = nil) {
-        dog.name = name
-        if let barkSound = barkSound {
-            dog.barkSound = barkSound
-        }
-    }
+  }
 }
+
+// MARK: - Required
 
 // TODO: Create an instance of Dog, call the variable 'fido'. The dog's name should be 'Fido'
 
@@ -47,7 +49,7 @@ class Dog {
 
 // TODO: Call bark() on it once
 
-// Bonus:
+// MARK: - Bonus
 // TODO: Create a struct called StructDog. It should have a name and a barkSound, mimicking Dog.
 
 // TODO: Create a variable called firstStruct, of type StructDog. Set its name and barkSound equal to 'firstStruct'.
@@ -66,37 +68,37 @@ class Dog {
 
 // Uncomment the below tests to verify your work.
 class MyTests : XCTestCase {
-    func tests() {
-//        XCTAssertEqual(fido.name, "Fido")
-//        XCTAssertEqual(fido.barkSound, "bark!")
-//        XCTAssertEqual(ein.name, "Ein")
-//        XCTAssertEqual(ein.barkSound, "bark!")
-//        XCTAssertEqual(potato.name, "Taters")
-//        XCTAssertEqual(potato.barkSound, "grr!")
-//        let chihuahua = Chihuahua(name: "name")
-//        XCTAssertEqual(chihuahua.barkSound, "yip!")
-//        XCTAssertEqual(chihuahua.barkCount, 0)
-//        chihuahua.bark()
-//        XCTAssertEqual(chihuahua.barkCount, 1)
-//        XCTAssertEqual(rover.name, "Rover")
-//        XCTAssertEqual(rover.barkCount, 1)
-//         Bonus:
-//        XCTAssertEqual(firstStruct.name, "firstStruct")
-//        XCTAssertEqual(secondStruct.name, "secondStruct")
-//        XCTAssertEqual(firstObject.name, "secondObject")
-//        XCTAssertEqual(secondObject.name, "secondObject")
-    }
+  func tests() {
+    //        XCTAssertEqual(fido.name, "Fido")
+    //        XCTAssertEqual(fido.barkSound, "bark!")
+    //        XCTAssertEqual(ein.name, "Ein")
+    //        XCTAssertEqual(ein.barkSound, "bark!")
+    //        XCTAssertEqual(potato.name, "Taters")
+    //        XCTAssertEqual(potato.barkSound, "grr!")
+    //        let chihuahua = Chihuahua(name: "name")
+    //        XCTAssertEqual(chihuahua.barkSound, "yip!")
+    //        XCTAssertEqual(chihuahua.barkCount, 0)
+    //        chihuahua.bark()
+    //        XCTAssertEqual(chihuahua.barkCount, 1)
+    //        XCTAssertEqual(rover.name, "Rover")
+    //        XCTAssertEqual(rover.barkCount, 1)
+    //         Bonus:
+    //        XCTAssertEqual(firstStruct.name, "firstStruct")
+    //        XCTAssertEqual(secondStruct.name, "secondStruct")
+    //        XCTAssertEqual(firstObject.name, "secondObject")
+    //        XCTAssertEqual(secondObject.name, "secondObject")
+  }
 }
 
 struct TestRunner {
-    func runTests(testClass:AnyClass) {
-        let tests = testClass as! XCTestCase.Type
-        let testSuite = tests.defaultTestSuite()
-        testSuite.run()
-        let run = testSuite.testRun as! XCTestSuiteRun
-        
-        print("\(run.totalFailureCount) failures")
-    }
+  func runTests(testClass:AnyClass) {
+    let tests = testClass as! XCTestCase.Type
+    let testSuite = tests.defaultTestSuite()
+    testSuite.run()
+    let run = testSuite.testRun as! XCTestSuiteRun
+    
+    print("\(run.totalFailureCount) failures")
+  }
 }
 
 TestRunner().runTests(testClass: MyTests.self)

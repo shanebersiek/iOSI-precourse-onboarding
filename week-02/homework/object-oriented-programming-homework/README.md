@@ -21,6 +21,7 @@ By the end of this assignment, you should be able to create an instance of an ob
 * Create a class of their own with a set of properties, create an instance of that class, then print it.
 
 **Bonus:**
+
 - Create a 'struct' with the same properties as the class. Write a few lines of code that demonstrates the differences between 'pass by reference' objects and 'pass by value' structs.
 
 #### Starter code
