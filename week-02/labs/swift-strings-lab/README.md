@@ -48,7 +48,7 @@ Solution code can be found in [solution-code](solution-code).
 
 ## Deliverables
 
-Turn in an XCode Project or Playgrounds.
+Turn in an Xcode Project or Playgrounds.
 
 
 ---
