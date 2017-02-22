@@ -30,7 +30,7 @@ In this exercise we are going to practice using Swift Optionals to write Safe co
 
 ### Requirements
 
-Open the [Starter Code](#starter-code) and complete all of the exercises there.
+Open the [Starter Code](starter-code/) and complete all of the exercises there.
 
 ### Starter code
 

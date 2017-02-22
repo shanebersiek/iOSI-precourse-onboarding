@@ -25,11 +25,11 @@ You should be able to create optional values, understand when one might define a
 
 #### Starter code
 
-Here is the [starter code for this assignment](https://github.com/generalassembly-studio/iOSI-course-materials/tree/master/curriculum/04-schedule-and-supplies/week-02/baseline-materials/swift-optionals-homework/starter-code).
+Here is the [starter code for this assignment](starter-code/).
 
 To get the assignment, you will need to fork the iOSI-course-materials repository and download it. Do your work on your own fork, commit and push it, then create a pull request using the Github website for your final submission back to the original iOSI-course-materials repo.
 
-> Note: Here is the [solution code](https://github.com/generalassembly-studio/iOSI-course-materials/tree/master/curriculum/04-schedule-and-supplies/week-02/baseline-materials/swift-optionals-homework/solution-code).
+> Note: Here is the [solution code](solution-code/).
 
 #### Deliverable
 
