@@ -37,4 +37,4 @@ Temporary Items
 /week-02/**/solution-code/**
 !/week-02/labs/swift-basic-functions-lab/solution-code/**
 !/week-02/labs/swift-advanced-functions-lab/solution-code/**
-
+!/week-02/labs/arrays-lab/solution-code/**
