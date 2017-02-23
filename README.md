@@ -6,6 +6,7 @@ This repository contains all the homework and labs for the course. Like the mate
 
 - [Week 1](week-01)
 - [Week 2](week-02)
+- [Week 3](week-03)
 
 
 ##Repo Structure and Use

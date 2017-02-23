@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BwO-aJ-Rsd">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Planet List View Controller-->
+        <scene sceneID="iFi-1w-aaD">
+            <objects>
+                <tableViewController id="839-Dn-I5j" customClass="PlanetListViewController" customModule="PassingDataLab" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="TJe-Km-PKj">
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="jEE-lc-Y5K">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="267"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Solar-System" translatesAutoresizingMaskIntoConstraints="NO" id="C87-xg-qFU">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="267"/>
+                                </imageView>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bXT-Jt-rIk">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="267"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.69692887931034486" colorSpace="calibratedWhite"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="bXT-Jt-rIk" secondAttribute="trailing" id="0hy-rr-tXH"/>
+                                <constraint firstItem="C87-xg-qFU" firstAttribute="top" secondItem="jEE-lc-Y5K" secondAttribute="top" id="1C2-Ag-uVX"/>
+                                <constraint firstItem="bXT-Jt-rIk" firstAttribute="top" secondItem="jEE-lc-Y5K" secondAttribute="top" id="Mnn-8b-DdT"/>
+                                <constraint firstAttribute="bottom" secondItem="C87-xg-qFU" secondAttribute="bottom" id="PD7-fC-SdD"/>
+                                <constraint firstItem="C87-xg-qFU" firstAttribute="leading" secondItem="jEE-lc-Y5K" secondAttribute="leading" id="RV2-ya-uqd"/>
+                                <constraint firstAttribute="bottom" secondItem="bXT-Jt-rIk" secondAttribute="bottom" id="d8H-pa-Jcm"/>
+                                <constraint firstAttribute="trailing" secondItem="C87-xg-qFU" secondAttribute="trailing" id="smi-ic-4nK"/>
+                                <constraint firstItem="bXT-Jt-rIk" firstAttribute="leading" secondItem="jEE-lc-Y5K" secondAttribute="leading" id="tB2-CG-jb4"/>
+                            </constraints>
+                        </view>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" textLabel="sDj-MO-dBP" style="IBUITableViewCellStyleDefault" id="NVZ-2L-gay">
+                                <rect key="frame" x="0.0" y="295" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NVZ-2L-gay" id="l6F-Mi-3BP">
+                                    <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sDj-MO-dBP">
+                                            <rect key="frame" x="15" y="0.0" width="550" height="43"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="839-Dn-I5j" id="faM-Nt-6pR"/>
+                            <outlet property="delegate" destination="839-Dn-I5j" id="UTs-Pg-tf6"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="75n-ed-j6F">
+                        <nil key="title"/>
+                        <barButtonItem key="backBarButtonItem" title=" " id="v4p-KC-Q3t"/>
+                        <view key="titleView" contentMode="scaleToFill" id="QdS-6a-VV1">
+                            <rect key="frame" x="180" y="6" width="240" height="33"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Planets" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAf-4f-x3m">
+                                    <rect key="frame" x="0.0" y="0.0" width="240" height="33"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="nAf-4f-x3m" firstAttribute="top" secondItem="QdS-6a-VV1" secondAttribute="top" id="bHk-d1-EGd"/>
+                                <constraint firstAttribute="trailing" secondItem="nAf-4f-x3m" secondAttribute="trailing" id="cOL-Bh-OEj"/>
+                                <constraint firstItem="nAf-4f-x3m" firstAttribute="leading" secondItem="QdS-6a-VV1" secondAttribute="leading" id="qRn-gL-05I"/>
+                                <constraint firstAttribute="bottom" secondItem="nAf-4f-x3m" secondAttribute="bottom" id="sXQ-tV-47f"/>
+                            </constraints>
+                        </view>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hJH-5L-ZEt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="993" y="-227"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="WbK-S2-UgD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BwO-aJ-Rsd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="DEn-Nv-F18">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="839-Dn-I5j" kind="relationship" relationship="rootViewController" id="AmJ-zF-r95"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ju4-48-dZw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="-227"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Solar-System" width="990" height="743"/>
+    </resources>
+</document>
