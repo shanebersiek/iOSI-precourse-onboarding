@@ -19,7 +19,7 @@ By the end of this exercise, you will have created a fully functional grocery li
 
 - The app home screen should display a list of groceries to purchase. This should start off empty when you open the app.
 - The app home screen should have a header view to add a new grocery to purchase
-- The header view should consist of a screen of listable groceries (each of which has a name and an image).
+- The header view should consist of a view of listable groceries (each of which has a name and an image).
 - When you tap on a grocery that grocery is added to the list.
   - Required items (images of these are in the starter-code folder):
   - Banana
