@@ -18,8 +18,9 @@ By the end of this exercise, you will have created a fully functional grocery li
 #### Requirements
 
 - The app home screen should display a list of groceries to purchase. This should start off empty when you open the app.
-- The app home screen should have a button to add a new grocery to purchase
-- After tapping 'add', you should see a screen of listable groceries (each of which has a name and an image).
+- The app home screen should have a header view to add a new grocery to purchase
+- The header view should consist of a view of listable groceries (each of which has a name and an image).
+- When you tap on a grocery that grocery is added to the list.
   - Required items (images of these are in the starter-code folder):
   - Banana
   - Apple
@@ -38,7 +39,7 @@ By the end of this exercise, you will have created a fully functional grocery li
 
 #### Starter code
 
-Here is the [starter code for this assignment](https://github.com/generalassembly-studio/iOSI-course-materials/tree/master/curriculum/04-schedule-and-supplies/week-02/baseline-materials/grocery-list-homework/starter-code). This consists of a series of images for the required groceries. You are required to create your grocery app from scratch.
+Here is the [starter code for this assignment](starter-code). This consists of a series of images for the required groceries. You are required to create your grocery app from scratch.
 
 #### Deliverable
 
