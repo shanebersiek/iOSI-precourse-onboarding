@@ -37,3 +37,6 @@ Temporary Items
 # Week-03
 /week-03/**/solution-code/**
 !week-03/labs/table-views-lab/solution-code/**
+!week-03/homework/grocery-list-homework/solution-code/**
+!week-03/labs/passing-data-lab/solution-code/**
+
