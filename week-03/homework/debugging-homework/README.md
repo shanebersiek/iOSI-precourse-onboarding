@@ -26,7 +26,7 @@ By the end of this assignment, you should be comfortable identifiying and fixing
 
 #### Starter code
 
-Here is the [starter code for this assignment](https://github.com/generalassembly-studio/iOSI-course-materials/tree/master/curriculum/04-schedule-and-supplies/week-03/baseline-materials/debugging-homework/starter-code). This consists of an app with the above two bugs in it. You are tasked with finding and fixing the first bug, and finding and identifiying the second bug. As a bonus, fix the second bug.
+Here is the [starter code for this assignment](starter-code). This consists of an app with the above two bugs in it. You are tasked with finding and fixing the first bug, and finding and identifiying the second bug. As a bonus, fix the second bug.
 
 #### Deliverable
 
