@@ -15,7 +15,7 @@ var randomInt: Int {
 
 extension Int {
 
-    func isDivisibleBy(other: Int) -> Bool {
+    func isDivisible(by other: Int) -> Bool {
         return self % other == 0
     }
 
@@ -30,7 +30,7 @@ extension Int {
 
         for i in (3...self/2) {
 
-            if self.isDivisibleBy(other: i) {
+            if self.isDivisible(by: i) {
                 return false
             }
         }
@@ -38,9 +38,9 @@ extension Int {
     }
 }
 
-enum BadNumberError : ErrorProtocol {
-    case Weird
-    case Prime
+enum BadNumberError : Error {
+    case weird
+    case prime
 }
 
 //=================================================================
@@ -55,12 +55,12 @@ func getNextValue() throws -> Int {
 
     counter += 1
 
-    if counter.isDivisibleBy(other: 16) {
-        throw BadNumberError.Weird
+    if counter.isDivisible(by: 16) {
+        throw BadNumberError.weird
     }
 
     if counter.isPrime() {
-        throw BadNumberError.Prime
+        throw BadNumberError.prime
     }
 
     return counter
@@ -97,9 +97,9 @@ catch let ex {
 
 
 //Given the following
-enum PersonError : ErrorProtocol {
-    case OutOfCoffee
-    case TooTired
+enum PersonError : Error {
+    case outOfCoffee
+    case tooTired
 }
 
 class Person {
@@ -114,11 +114,11 @@ class Person {
 
         switch randomInt {
 
-            case let x where x.isDivisibleBy(other: 5) :
-                throw PersonError.OutOfCoffee
+            case let x where x.isDivisible(by: 5) :
+                throw PersonError.outOfCoffee
 
-            case let x where x.isDivisibleBy(other: 10) :
-                throw PersonError.TooTired
+            case let x where x.isDivisible(by: 10) :
+                throw PersonError.tooTired
 
             default :
                 print("I am working")
