@@ -35,8 +35,4 @@ Temporary Items
 # End of https://www.gitignore.io/api/macos
 
 # Week-03
-/week-03/**/solution-code/**
-!week-03/labs/table-views-lab/solution-code/**
-!week-03/homework/grocery-list-homework/solution-code/**
-!week-03/labs/passing-data-lab/solution-code/**
-!week-03/labs/debugging-lab/solution-code/**
+/week-04/**/solution-code/**
