@@ -53,7 +53,7 @@ For the code, adhere to the following:
 
 + A `WeatherDelegate` protocol with the method `weatherDidUpdate(WeatherStatus)`.
 
-+ Use an [NSTimer](http://stackoverflow.com/questions/24007518/how-can-i-use-nstimer-in-swift) to check for the weather and update the view every `5.0` seconds.
++ Use an [Timer](http://stackoverflow.com/questions/24007518/how-can-i-use-nstimer-in-swift) to check for the weather and update the view every `5.0` seconds.
 
 > Note: The Weather Conditions can be generated at random, or at a fixed-rated.
 
@@ -67,7 +67,7 @@ Solution code can be found in the [solution-code](solution-code) folder.
 
 ## Deliverables
 
-Turn in your XCode Project by submitting a PR.
+Turn in your Xcode Project by submitting a PR.
 
 It should look something like this:
 
