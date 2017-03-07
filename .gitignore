@@ -36,3 +36,5 @@ Temporary Items
 
 # Week-03
 /week-04/**/solution-code/**
+!/week-04/autolayouts-homework/solution-code/**
+
