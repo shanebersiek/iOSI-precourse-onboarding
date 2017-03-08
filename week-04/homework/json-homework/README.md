@@ -27,7 +27,7 @@ By the end of this file, you should be able to add and remove fields from an exi
 
 #### Starter code
 
-Here is the [starter code for this assignment](https://github.com/generalassembly-studio/iOSI-course-materials/tree/master/curriculum/04-schedule-and-supplies/week-04/baseline-materials/json-homework). This homework is to be completed using a text editor.
+Here is the [starter code for this assignment](starter-code). This homework is to be completed using a text editor.
 
 #### Deliverable
 
