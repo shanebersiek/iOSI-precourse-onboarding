@@ -26,7 +26,7 @@ By the end of this homework, you should be able to create scrollable views laid 
 
 #### Starter code
 
-Here is the [starter code for this assignment](/starter-code). This consists of a blank application and a series of images. Create the image viewer application as described above.
+Here is the [starter code for this assignment](starter-code). This consists of a blank application and a series of images. Create the image viewer application as described above.
 
 #### Deliverable
 
