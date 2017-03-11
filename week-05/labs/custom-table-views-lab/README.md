@@ -96,7 +96,7 @@ Solution code can be found in [./solution-code](solution-code).
 
 ## Deliverables
 
-Turn in your XCode Project.
+Turn in your Xcode Project.
 
 It should look like this:
 
@@ -114,6 +114,7 @@ It should look like this:
 ---
 
 **Verify that**
+
 + Your App never crashes
 + Your code compiles
 + You used at least 2 custom Table View Cells
