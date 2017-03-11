@@ -44,7 +44,7 @@ JSON is the main language of the public internet. It is a protocol used to trans
 ```
 + Create a data structure called `Place` to represent this JSON.
 
-+ Use `NSJSONSerialization` to parse the json into the data structure you created.
++ Use `JSONSerialization` to parse the json into the data structure you created.
 
 + Print the resulting object
 
@@ -56,7 +56,7 @@ JSON is the main language of the public internet. It is a protocol used to trans
 ["Istanbul", "Laguna Beach", "New York City", "Washington DC", "San Francisco", "Miami"]
 ```
 
-+ Use `NSJSONSerialization` to parse this JSON into an `Array`.
++ Use `JSONSerialization` to parse this JSON into an `Array`.
 
 + Print each element in that Array
 
@@ -88,18 +88,20 @@ JSON is the main language of the public internet. It is a protocol used to trans
 
 **Exercise 4**
 
-Use the [Google Books API](https://www.googleapis.com/books/v1/volumes?q=isbn:9788576653721) to write a function that takes
-an *ISBN* and does the following:
+Use the [Google Books API](https://developers.google.com/books/) to write a function that takes an *ISBN* and does the following:
+
 + Prints the name of the book
 + Prints the author of the book
 + Prints a short description of the book
 + Obtains the cover image for the book and displays it (still within playgrounds).
 
+> Example url: https://www.googleapis.com/books/v1/volumes?q=isbn:9788576653721
+
 **Exercise 5**
 
-+ Using the same [Google Geocode API](https://developers.google.com/maps/documentation/geocoding/start) used in the [ios-networking-lab](https://github.com/generalassembly-studio/iOSI-course-materials/tree/master/curriculum/04-schedule-and-supplies/week-05/baseline-materials/ios-networking-lab), write a function that takes an address and returns the latitude and longitude.
++ Using the same [Google Geocode API](https://developers.google.com/maps/documentation/geocoding/start) used in the [ios-networking-lab](https://git.generalassemb.ly/iosi/sf-01-homework-and-labs/tree/master/week-04/labs/ios-networking-lab), write a function that takes an address and returns the latitude and longitude.
 
-> An Example query: https://maps.googleapis.com/maps/api/geocode/json?address=Oxford%20University,%20uk&sensor=false
+> Example query: https://maps.googleapis.com/maps/api/geocode/json?address=Oxford%20University,%20uk&sensor=false
 
 
 ---
@@ -123,6 +125,7 @@ Your deliverable will be a Swift Playground containing your solutions.
 + Take the `Place` class you created for Exercise 1, and write a function `(Place) -> (String)` that turns it into a JSON-Compatible String.
 
 For example:
+
 ```js
 let place = Place(name: "Promenade", city: "Santa Monica", state: "CA", zipCode: 90401)
 place.asJson() ->  { "name" : "Santa Monica Public Library", "city" : "Santa Monica", "state" : "California", "zipCode" : 90401 }
@@ -130,11 +133,10 @@ place.asJson() ->  { "name" : "Santa Monica Public Library", "city" : "Santa Mon
 
 > **Note** The output is a String.
 
-
  + Check that the function is correct by parsing the result back into an a new instance of `Place` and checking if they are equal.
 
 
 # Additional Resources
 
 + [Swift Reference](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html#//apple_ref/doc/uid/TP40014097-CH2-ID1)
-+ [NSJSONSerialization Reference](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/index.html)
++ [JSONSerialization Reference](https://developer.apple.com/reference/foundation/jsonserialization)
