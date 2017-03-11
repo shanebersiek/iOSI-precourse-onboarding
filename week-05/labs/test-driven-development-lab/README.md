@@ -124,4 +124,4 @@ Turn in your XCode Project with your classes and tests.
 
 + [Swift Reference](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html#//apple_ref/doc/uid/TP40014097-CH2-ID1)
 + [TDD Explanation](https://en.wikipedia.org/wiki/Test-driven_development)
-+ [NSBundle.mainBundle().pathForResource](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSBundle_Class/index.html#//apple_ref/occ/instm/NSBundle/pathForResource:ofType:)
++ [Bundle.main.path(forResource: String?)](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSBundle_Class/index.html#//apple_ref/occ/instm/NSBundle/pathForResource:ofType:)

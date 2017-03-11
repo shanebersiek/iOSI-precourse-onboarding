@@ -27,7 +27,7 @@ class JSONFiles {
     private static func loadJsonFile(name: String) -> String? {
         let path = "\(name)"
         
-        guard let url = Bundle.main.urlForResource(path, withExtension: "json")
+        guard let url = Bundle.main.url(forResource: path, withExtension: "json")
         else {
             return nil
         }
