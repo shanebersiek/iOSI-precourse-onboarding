@@ -13,7 +13,7 @@ creator:
 
 #### What we are doing
 
-In this lab, we will practice using basic `NSFoundation` classes.
+In this lab, we will practice using basic `Foundation` classes.
 
 > ***Note:*** _This lab should be done independently ._
 
@@ -26,7 +26,7 @@ It allows the ability to work with time and dates and to present it to users in 
 
 ## Exercise
 
-In this exercise, we will practice reading files using `NSBundle` and working with dates and time.
+In this exercise, we will practice reading files using `Bundle` and working with dates and time.
 
 ### Requirements
 
@@ -86,7 +86,7 @@ Solution code can be found in [solution-code](solution-code).
 
 ## Deliverables
 
-Turn in your XCode Project.
+Turn in your Xcode Project.
 
 **Verify that**
 
@@ -110,7 +110,7 @@ In other words, print the first number, then a second later, print the second nu
 # Additional Resources
 
 + [Swift Reference](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html#//apple_ref/doc/uid/TP40014097-CH2-ID1)
-+ [NSBundle](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSBundle_Class/)
++ [Bundle](https://developer.apple.com/reference/foundation/bundle)
 + [Data](https://developer.apple.com/reference/foundation/data)
 + [Date](https://developer.apple.com/reference/foundation/date)
 + [DateFormatter](https://developer.apple.com/reference/foundation/nsdateformatter)
