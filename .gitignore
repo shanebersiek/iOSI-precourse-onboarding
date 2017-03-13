@@ -34,13 +34,6 @@ Temporary Items
 
 # End of https://www.gitignore.io/api/macos
 
-# Week-04
-/week-04/**/solution-code/**
-!/week-04/homework/autolayouts-homework/solution-code/**
-!/week-04/homework/json-homework/solution-code/**
-!/week-04/labs/ios-networking-lab/solution-code/**
-!/week-04/labs/json-lab/solution-code/**
-
 # Week-05
 /week-05/**/solution-code/**
 
