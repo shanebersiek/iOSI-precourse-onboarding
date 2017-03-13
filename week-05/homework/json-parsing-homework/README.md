@@ -26,7 +26,7 @@ By the end of this homework, you should be able to add and remove fields program
 
 #### Starter code
 
-Here is the [starter code for this assignment](/starter-code). This consists of a playground with included unit tests.
+Here is the [starter code for this assignment](starter-code). This consists of a playground with included unit tests.
 
 #### Deliverable
 
