@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE29A3C61D377BC30060ED7A /* Ubuntu 300.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE29A3BE1D377BC30060ED7A /* Ubuntu 300.ttf */; };
+		DE29A3C71D377BC30060ED7A /* Ubuntu 300italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE29A3BF1D377BC30060ED7A /* Ubuntu 300italic.ttf */; };
+		DE29A3C81D377BC30060ED7A /* Ubuntu 500.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE29A3C01D377BC30060ED7A /* Ubuntu 500.ttf */; };
+		DE29A3C91D377BC30060ED7A /* Ubuntu 500italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE29A3C11D377BC30060ED7A /* Ubuntu 500italic.ttf */; };
+		DE29A3CA1D377BC30060ED7A /* Ubuntu 700.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE29A3C21D377BC30060ED7A /* Ubuntu 700.ttf */; };
+		DE29A3CB1D377BC30060ED7A /* Ubuntu 700italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE29A3C31D377BC30060ED7A /* Ubuntu 700italic.ttf */; };
+		DE29A3CC1D377BC30060ED7A /* Ubuntu italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE29A3C41D377BC30060ED7A /* Ubuntu italic.ttf */; };
+		DE29A3CD1D377BC30060ED7A /* Ubuntu regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE29A3C51D377BC30060ED7A /* Ubuntu regular.ttf */; };
+		DE29A3CF1D377BD30060ED7A /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE29A3CE1D377BD30060ED7A /* Fonts.swift */; };
+		DE29A3D71D377C870060ED7A /* FontsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE29A3D61D377C870060ED7A /* FontsTest.swift */; };
+		DE29A3DF1D377D290060ED7A /* Microwave.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE29A3DE1D377D290060ED7A /* Microwave.swift */; };
+		DE29A3E11D377D390060ED7A /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE29A3E01D377D390060ED7A /* Food.swift */; };
+		DE29A3E31D377F690060ED7A /* MicrowaveTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE29A3E21D377F690060ED7A /* MicrowaveTest.swift */; };
+		DEB37EAD1D3779D900610D90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB37EAC1D3779D900610D90 /* AppDelegate.swift */; };
+		DEB37EAF1D3779D900610D90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB37EAE1D3779D900610D90 /* ViewController.swift */; };
+		DEB37EB21D3779D900610D90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB37EB01D3779D900610D90 /* Main.storyboard */; };
+		DEB37EB41D3779D900610D90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB37EB31D3779D900610D90 /* Assets.xcassets */; };
+		DEB37EB71D3779D900610D90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB37EB51D3779D900610D90 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE29A3D91D377C870060ED7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEB37EA11D3779D900610D90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEB37EA81D3779D900610D90;
+			remoteInfo = UnitTesting1Lab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE29A3BE1D377BC30060ED7A /* Ubuntu 300.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu 300.ttf"; sourceTree = "<group>"; };
+		DE29A3BF1D377BC30060ED7A /* Ubuntu 300italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu 300italic.ttf"; sourceTree = "<group>"; };
+		DE29A3C01D377BC30060ED7A /* Ubuntu 500.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu 500.ttf"; sourceTree = "<group>"; };
+		DE29A3C11D377BC30060ED7A /* Ubuntu 500italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu 500italic.ttf"; sourceTree = "<group>"; };
+		DE29A3C21D377BC30060ED7A /* Ubuntu 700.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu 700.ttf"; sourceTree = "<group>"; };
+		DE29A3C31D377BC30060ED7A /* Ubuntu 700italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu 700italic.ttf"; sourceTree = "<group>"; };
+		DE29A3C41D377BC30060ED7A /* Ubuntu italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu italic.ttf"; sourceTree = "<group>"; };
+		DE29A3C51D377BC30060ED7A /* Ubuntu regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu regular.ttf"; sourceTree = "<group>"; };
+		DE29A3CE1D377BD30060ED7A /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		DE29A3D41D377C870060ED7A /* UnitTestingLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestingLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE29A3D61D377C870060ED7A /* FontsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsTest.swift; sourceTree = "<group>"; };
+		DE29A3D81D377C870060ED7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE29A3DE1D377D290060ED7A /* Microwave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Microwave.swift; sourceTree = "<group>"; };
+		DE29A3E01D377D390060ED7A /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		DE29A3E21D377F690060ED7A /* MicrowaveTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicrowaveTest.swift; sourceTree = "<group>"; };
+		DEB37EA91D3779D900610D90 /* UnitTestingLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTestingLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB37EAC1D3779D900610D90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEB37EAE1D3779D900610D90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEB37EB11D3779D900610D90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEB37EB31D3779D900610D90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEB37EB61D3779D900610D90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEB37EB81D3779D900610D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE29A3D11D377C870060ED7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB37EA61D3779D900610D90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE29A3BD1D377BA70060ED7A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DE29A3BE1D377BC30060ED7A /* Ubuntu 300.ttf */,
+				DE29A3BF1D377BC30060ED7A /* Ubuntu 300italic.ttf */,
+				DE29A3C01D377BC30060ED7A /* Ubuntu 500.ttf */,
+				DE29A3C11D377BC30060ED7A /* Ubuntu 500italic.ttf */,
+				DE29A3C21D377BC30060ED7A /* Ubuntu 700.ttf */,
+				DE29A3C31D377BC30060ED7A /* Ubuntu 700italic.ttf */,
+				DE29A3C41D377BC30060ED7A /* Ubuntu italic.ttf */,
+				DE29A3C51D377BC30060ED7A /* Ubuntu regular.ttf */,
+				DE29A3CE1D377BD30060ED7A /* Fonts.swift */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		DE29A3D51D377C870060ED7A /* UnitTesting1LabTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE29A3D61D377C870060ED7A /* FontsTest.swift */,
+				DE29A3E21D377F690060ED7A /* MicrowaveTest.swift */,
+				DE29A3D81D377C870060ED7A /* Info.plist */,
+			);
+			name = UnitTesting1LabTests;
+			path = UnitTestingLabTests;
+			sourceTree = "<group>";
+		};
+		DEB37EA01D3779D900610D90 = {
+			isa = PBXGroup;
+			children = (
+				DEB37EAB1D3779D900610D90 /* UnitTestingLab */,
+				DE29A3D51D377C870060ED7A /* UnitTesting1LabTests */,
+				DEB37EAA1D3779D900610D90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEB37EAA1D3779D900610D90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEB37EA91D3779D900610D90 /* UnitTestingLab.app */,
+				DE29A3D41D377C870060ED7A /* UnitTestingLabTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEB37EAB1D3779D900610D90 /* UnitTestingLab */ = {
+			isa = PBXGroup;
+			children = (
+				DEB37EB81D3779D900610D90 /* Info.plist */,
+				DEB37EAC1D3779D900610D90 /* AppDelegate.swift */,
+				DE29A3E01D377D390060ED7A /* Food.swift */,
+				DE29A3DE1D377D290060ED7A /* Microwave.swift */,
+				DEB37EAE1D3779D900610D90 /* ViewController.swift */,
+				DEB37EB31D3779D900610D90 /* Assets.xcassets */,
+				DE29A3BD1D377BA70060ED7A /* Fonts */,
+				DEB37EB51D3779D900610D90 /* LaunchScreen.storyboard */,
+				DEB37EB01D3779D900610D90 /* Main.storyboard */,
+			);
+			path = UnitTestingLab;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE29A3D31D377C870060ED7A /* UnitTestingLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE29A3DB1D377C870060ED7A /* Build configuration list for PBXNativeTarget "UnitTestingLabTests" */;
+			buildPhases = (
+				DE29A3D01D377C870060ED7A /* Sources */,
+				DE29A3D11D377C870060ED7A /* Frameworks */,
+				DE29A3D21D377C870060ED7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE29A3DA1D377C870060ED7A /* PBXTargetDependency */,
+			);
+			name = UnitTestingLabTests;
+			productName = UnitTesting1LabTests;
+			productReference = DE29A3D41D377C870060ED7A /* UnitTestingLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEB37EA81D3779D900610D90 /* UnitTestingLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEB37EBB1D3779D900610D90 /* Build configuration list for PBXNativeTarget "UnitTestingLab" */;
+			buildPhases = (
+				DEB37EA51D3779D900610D90 /* Sources */,
+				DEB37EA61D3779D900610D90 /* Frameworks */,
+				DEB37EA71D3779D900610D90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnitTestingLab;
+			productName = UnitTesting1Lab;
+			productReference = DEB37EA91D3779D900610D90 /* UnitTestingLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEB37EA11D3779D900610D90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "General Assembly";
+				TargetAttributes = {
+					DE29A3D31D377C870060ED7A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = D76X37A2FG;
+						DevelopmentTeamName = "Juan Wellington Moreno (Personal Team)";
+						ProvisioningStyle = Automatic;
+						TestTargetID = DEB37EA81D3779D900610D90;
+					};
+					DEB37EA81D3779D900610D90 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DEB37EA41D3779D900610D90 /* Build configuration list for PBXProject "UnitTestingLab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEB37EA01D3779D900610D90;
+			productRefGroup = DEB37EAA1D3779D900610D90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEB37EA81D3779D900610D90 /* UnitTestingLab */,
+				DE29A3D31D377C870060ED7A /* UnitTestingLabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE29A3D21D377C870060ED7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB37EA71D3779D900610D90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE29A3CC1D377BC30060ED7A /* Ubuntu italic.ttf in Resources */,
+				DE29A3C61D377BC30060ED7A /* Ubuntu 300.ttf in Resources */,
+				DEB37EB71D3779D900610D90 /* LaunchScreen.storyboard in Resources */,
+				DE29A3C71D377BC30060ED7A /* Ubuntu 300italic.ttf in Resources */,
+				DE29A3CD1D377BC30060ED7A /* Ubuntu regular.ttf in Resources */,
+				DEB37EB41D3779D900610D90 /* Assets.xcassets in Resources */,
+				DE29A3CA1D377BC30060ED7A /* Ubuntu 700.ttf in Resources */,
+				DE29A3C81D377BC30060ED7A /* Ubuntu 500.ttf in Resources */,
+				DEB37EB21D3779D900610D90 /* Main.storyboard in Resources */,
+				DE29A3C91D377BC30060ED7A /* Ubuntu 500italic.ttf in Resources */,
+				DE29A3CB1D377BC30060ED7A /* Ubuntu 700italic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE29A3D01D377C870060ED7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE29A3D71D377C870060ED7A /* FontsTest.swift in Sources */,
+				DE29A3E31D377F690060ED7A /* MicrowaveTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB37EA51D3779D900610D90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB37EAF1D3779D900610D90 /* ViewController.swift in Sources */,
+				DE29A3CF1D377BD30060ED7A /* Fonts.swift in Sources */,
+				DE29A3E11D377D390060ED7A /* Food.swift in Sources */,
+				DEB37EAD1D3779D900610D90 /* AppDelegate.swift in Sources */,
+				DE29A3DF1D377D290060ED7A /* Microwave.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE29A3DA1D377C870060ED7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEB37EA81D3779D900610D90 /* UnitTestingLab */;
+			targetProxy = DE29A3D91D377C870060ED7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEB37EB01D3779D900610D90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEB37EB11D3779D900610D90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEB37EB51D3779D900610D90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEB37EB61D3779D900610D90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE29A3DC1D377C870060ED7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UnitTestingLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.generalassembly.UnitTestingLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnitTestingLab.app/UnitTestingLab";
+			};
+			name = Debug;
+		};
+		DE29A3DD1D377C870060ED7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UnitTestingLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.generalassembly.UnitTestingLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnitTestingLab.app/UnitTestingLab";
+			};
+			name = Release;
+		};
+		DEB37EB91D3779D900610D90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEB37EBA1D3779D900610D90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEB37EBC1D3779D900610D90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UnitTestingLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.generalassembly.UnitTestingLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DEB37EBD1D3779D900610D90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UnitTestingLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.generalassembly.UnitTestingLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE29A3DB1D377C870060ED7A /* Build configuration list for PBXNativeTarget "UnitTestingLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE29A3DC1D377C870060ED7A /* Debug */,
+				DE29A3DD1D377C870060ED7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEB37EA41D3779D900610D90 /* Build configuration list for PBXProject "UnitTestingLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB37EB91D3779D900610D90 /* Debug */,
+				DEB37EBA1D3779D900610D90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEB37EBB1D3779D900610D90 /* Build configuration list for PBXNativeTarget "UnitTestingLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB37EBC1D3779D900610D90 /* Debug */,
+				DEB37EBD1D3779D900610D90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEB37EA11D3779D900610D90 /* Project object */;
+}

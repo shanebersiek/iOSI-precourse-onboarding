@@ -36,5 +36,6 @@ Temporary Items
 
 # Week-05
 /week-05/**/solution-code/**
-
-
+!week-05/labs/unit-testing-lab/solution-code/**
+!week-05/labs/json-parsing-lab/solution-code/**
+!week-05/homework/json-parsing-homework/solution-code/**
