@@ -107,7 +107,7 @@ Solution code can be found in [solution-code](solution-code).
 
 ## Deliverables
 
-Turn in your XCode Project with your classes and tests.
+Turn in your Xcode Project with your classes and tests.
 
 **Verify that**
 

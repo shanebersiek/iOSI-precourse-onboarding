@@ -39,7 +39,6 @@ class JSONFilesTests: XCTestCase {
     func testGoogleMaps() {
         XCTAssertNotNil(JSONFiles.googleMaps)
         XCTAssert(!JSONFiles.googleMaps!.isEmpty)
-        
     }
     
     func testTwitter() {
