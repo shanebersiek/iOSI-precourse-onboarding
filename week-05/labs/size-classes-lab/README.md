@@ -92,11 +92,11 @@ Starter code can be found in the [starter-code](starter-code) folder.
 
 ### Solution Code
 
-Solution code can be found in [./solution-code](solution-code).
+Solution code can be found in [solution-code](solution-code).
 
 ## Deliverables
 
-Turn in your XCode Project and App.
+Turn in your Xcode Project and App.
 
 **Verify that**
 
