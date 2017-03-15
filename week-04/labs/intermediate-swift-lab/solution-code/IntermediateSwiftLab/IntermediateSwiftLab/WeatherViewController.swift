@@ -14,16 +14,15 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var weatherConditionsLabel: UILabel!
     @IBOutlet weak var temperatureLabel: UILabel!
     
-    private let weatherImages: [WeatherCondition : UIImage] = [
+    fileprivate let weatherImages: [WeatherCondition : UIImage] = [
         .Sunny : #imageLiteral(resourceName: "Weather-Sunny"),
         .Rainy : #imageLiteral(resourceName: "Weather-Rainy"),
         .Overcast : #imageLiteral(resourceName: "Weather-Overcast"),
         .Cloudy : #imageLiteral(resourceName: "Weather-Cloudy")
-        
     ]
     
-    private let blueSkiesColor = UIColor(colorLiteralRed: 63/255, green: 169/255, blue: 245/255, alpha: 1.0)
-    private let overcastColor = UIColor(colorLiteralRed: 179/255, green: 179/255, blue: 179/255, alpha: 1.0)
+    fileprivate let blueSkiesColor = UIColor(colorLiteralRed: 63/255, green: 169/255, blue: 245/255, alpha: 1.0)
+    fileprivate let overcastColor = UIColor(colorLiteralRed: 179/255, green: 179/255, blue: 179/255, alpha: 1.0)
     
     override func viewDidLoad() {
         super.viewDidLoad()
