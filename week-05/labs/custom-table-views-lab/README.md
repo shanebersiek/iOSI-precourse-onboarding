@@ -35,7 +35,6 @@ Using custom table views allows you to create apps that look like this:
 <img src="deliverables/Facebook-1.png" width="350" align="center" style='border:1px solid #9B9B9B'> </img>
 
 
-
 ## Exercise
 
 In this lab, we will create an App that looks like a Facebook/Tumblr clone. It will contain a Table View
@@ -92,7 +91,7 @@ Here are some low-fidelity sketches of the Fumblr interface:
 There is no started code.
 
 ### Solution Code
-Solution code can be found in [./solution-code](solution-code).
+Solution code can be found in [solution-code](solution-code).
 
 ## Deliverables
 
@@ -120,13 +119,13 @@ It should look like this:
 + You used at least 2 custom Table View Cells
 
 
-
 ### Bonus Activities
 
++ Make each cell look more card like
++ Add 2 table view cellrow actions
+	+ The row actions should be different for each cell 
 + Make each cell clickable, so that when the user taps on a post, it takes you to a new View Controller with that post.
-
 + Create the interface so that it adapts to the iPad.
-
 + Give the user the ability to post their own texts and photos
 
 # Additional Resources
