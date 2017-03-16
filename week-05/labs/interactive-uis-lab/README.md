@@ -39,13 +39,10 @@ Use the public beta api key.
 + Read the API docs for Giphy for getting a single photo using search - make sure to use the public beta API Key, `dc6zaTOxFJmzC`
 
 + Write a a Single-View App that has a `UITextField` where the user can search for images.
-    + Use the `UITextFieldDelegate` protocol to get events from the keyboard.
 
 + The app should have a `UIImageView` to show the resulting GIF Image.
 
 + Use a `UIActivityIndicator` to show progress when the app performs the search and when it loads the image into view.
-
-+ Use a `UIActivityIndicatorView` to allow sharing the image on social media.
 
 + Add a button that allows the user to:
     + Search again
@@ -53,6 +50,11 @@ Use the public beta api key.
     + Cancel
 > Tip: Use the `UIAlertController` to show an Action Sheet.
 
+**Bonus**:
+
++ Use the `UITextFieldDelegate` protocol to get events from the keyboard.
+
++ Use a `UIActivityIndicatorView` to allow sharing the image on social media.
 
 + Create a "Share" button that allows the user to share the GIF on Social Media - use the [`UIActivityViewController`](http://nshipster.com/uiactivityviewcontroller/)
 
@@ -61,21 +63,21 @@ There is no starter code. Good luck!
 
 
 ### Solution Code
-Solution code can be found in [./solution-code](solution-code).
+Solution code can be found in [solution-code](solution-code).
 
 ## Deliverables
 
-Turn in your XCode Project which includes your app.
-
+Turn in your Xcode Project which includes your app.
 
 **Verify that**
+
 + Your App does not crash
 + Your code compiles
 + The GIFs display properly
 + You used Autolayout in your app
 
 
-### Bonus Activities
+### Bonus-Bonus Activities
 
 + Create a Table-View version of the App that shows multiple Images - every time a search is made, the new GIF result is added to the top of the list
 
