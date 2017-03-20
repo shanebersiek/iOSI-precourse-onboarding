@@ -1,0 +1,18 @@
+{
+  "name": "RedditClient",
+  "version": "0.1.0",
+  "summary": "A short description of RedditClient.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/RedditClient",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Rudd T": "rudd@trysalt.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RedditClient/Classes/**/*"
+}

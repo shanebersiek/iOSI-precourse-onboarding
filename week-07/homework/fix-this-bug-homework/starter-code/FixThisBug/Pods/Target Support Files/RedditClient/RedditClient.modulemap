@@ -1,0 +1,6 @@
+framework module RedditClient {
+  umbrella header "RedditClient-umbrella.h"
+
+  export *
+  module * { export * }
+}
