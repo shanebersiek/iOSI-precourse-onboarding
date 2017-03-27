@@ -13,7 +13,7 @@ creator:
 
 #### What we are doing
 
-In this lab, we will practice making Apps with the `UITableViewController`, `UICollectionViewController`, and `UIPageViewController`.
+In this lab, we will practice making Apps with the `UITabBarController`, `UICollectionViewController`, and `UIPageViewController`.
 
 > ***Note:*** _This lab can be done independently or in pairs._
 
