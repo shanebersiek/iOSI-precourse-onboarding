@@ -39,7 +39,7 @@ Cocoapods makes it easier to use Open Source libraries and integrate them in you
     + Is there a homepage for the pod? Does it appear active?
     + Is there API documentation and/or a wiki? How well-documented does it appear?
 
-+ Create a new XCode Project.
++ Create a new Xcode Project.
     + Create a `Podfile` for the project.
     + Add one of the libraries that you researched above to the Podfile.
     + Run `pod install` to download the repositories.
@@ -49,6 +49,7 @@ Cocoapods makes it easier to use Open Source libraries and integrate them in you
 
 
 **Verify that**
+
 + The workspace and project build successfully
 + You used Cocoapods
 + The app runs successfully in the Simulator
@@ -67,7 +68,7 @@ There is no solution code for this lab.
 
 For the Cocoapods evaluation, turn in a written report on your findings in an `evaluation.md` file.  It can be as simple as answering the questions posed above.
 
-For the integration, turn in a an XCode Workspace with at least one successfully integrated Cocoapod library.
+For the integration, turn in a an Xcode Workspace with at least one successfully integrated Cocoapod library.
 
 ### Bonus Activities
 
@@ -82,5 +83,5 @@ For the integration, turn in a an XCode Workspace with at least one successfully
 # Additional Resources
 
 + [Official Apple Developer Website](https://developer.apple.com/library/ios/navigation/)
-+ [Interface Builder](https://developer.apple.com/xcode/interface-builder/)
++ [Interface Builder](https://developer.apple.com/Xcode/interface-builder/)
 + [Autolayouts Guide](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/)

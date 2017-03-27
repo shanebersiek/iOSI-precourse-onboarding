@@ -96,7 +96,7 @@ There is no solution code.
 
 ## Deliverables
 
-Turn in your XCode Project.
+Turn in your Xcode Project.
 
 It should look like this:
 
