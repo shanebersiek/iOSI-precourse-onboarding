@@ -63,7 +63,7 @@ There is no solution code for this lab.
 
 ## Deliverables
 
-Turn in your XCode project.
+Turn in your Xcode project.
 
 
 ### Bonus Activities
