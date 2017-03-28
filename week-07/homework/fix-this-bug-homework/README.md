@@ -28,7 +28,7 @@ By the end of this homework, you should diagnose a bug in a Cocoapods dependency
 
 #### Starter code
 
-Here is the [starter code for this assignment](/starter-code). This consists of an application which makes a network connection. It has a dependency on a few Cocoapods. The app reads headlines from Reddit, but does not load preview images correctly. Your task is to fix this bug and correctly load preview images for Reddit articles.
+Here is the [starter code for this assignment](starter-code). This consists of an application which makes a network connection. It has a dependency on a few Cocoapods. The app reads headlines from Reddit, but does not load preview images correctly. Your task is to fix this bug and correctly load preview images for Reddit articles.
 
 #### Deliverable
 
@@ -38,4 +38,4 @@ Fork this repository using Github, then clone your fork to your computer. Naviga
 
 #### Assessment
 
-Your edited project should meet all of the specifications described, and [will be evaluated by the following rubric](/rubric.md). Still can't figure it out? Talk with your instructor and review the solution code.
+Your edited project should meet all of the specifications described, and [will be evaluated by the following rubric](rubric.md). Still can't figure it out? Talk with your instructor and review the solution code.

@@ -40,7 +40,7 @@ class ViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell") ?? UITableViewCell(style: .subtitle, reuseIdentifier: "cell")
-        guard let story = self.stories?[(indexPath as NSIndexPath).row] else { preconditionFailure() }
+        guard let story = self.stories?[indexPath.row] else { preconditionFailure() }
         cell.textLabel?.text = story.title
         cell.detailTextLabel?.text = story.author
         if let imageUrl = story.previewImageUrl {
