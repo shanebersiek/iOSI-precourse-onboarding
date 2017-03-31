@@ -50,13 +50,13 @@ After you're finished with your competitive research, for the remainder of the l
 
 #### Starter assets
 
-Be sure to use the [Research Plan Template](starter-assets/research-plan-template.pdf) for your research plan.
+Be sure to use the [Research Plan Template](starter-assets/research-plan-worksheet.pdf) for your research plan.
 
 For the competitive analysis, create a blank Google Sheet and fill out your columns/rows as needed.
 
 #### Deliverable
 
-For the research plan with user research questions, you should have a completed the [Research Plan Template](starter-assets/research-plan-template.pdf).
+For the research plan with user research questions, you should have a completed the [Research Plan Template](starter-assets/research-plan-worksheet.pdf).
 
 The competitive analysis should look something like this, depending on what method you choose:
 
