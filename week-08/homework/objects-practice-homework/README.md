@@ -32,7 +32,7 @@ By the end of this homework, you should be able to to design a complex system of
 
 #### Starter code
 
-Here is the [starter code for this assignment](/starter-code). This consists of an empty playground. Your task is to add classes to the above specificiation to the playground.
+Here is the [starter code for this assignment](starter-code). This consists of an empty playground. Your task is to add classes to the above specificiation to the playground.
 
 #### Deliverable
 
@@ -42,6 +42,6 @@ Fork this repository using Github, then clone your fork to your computer. Naviga
 
 #### Assessment
 
-Your playground should meet all of the specifications described, and [will be evaluated by the following rubric](/rubric.md). Your code does not need to compile, as we aren't focusing on implementations, just interactoin between classes. This homework's assessment will be based on the functionality, cleanliness and simplicity of your OOP design. Still can't figure it out? Talk with your instructor and review the solution code (once posted).
+Your playground should meet all of the specifications described, and [will be evaluated by the following rubric](rubric.md). Your code does not need to compile, as we aren't focusing on implementations, just interactoin between classes. This homework's assessment will be based on the functionality, cleanliness and simplicity of your OOP design. Still can't figure it out? Talk with your instructor and review the solution code (once posted).
 
-> [Solution code](/solution-code)
+> [Solution code](solution-code)

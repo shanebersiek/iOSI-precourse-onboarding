@@ -26,7 +26,7 @@ By the end of this homework, you should be able to explore the documentation for
 
 #### Starter code
 
-Here is the [starter code for this assignment](/starter-code). This consists of an application as described above. Your task is to add 3D Touch functionality to the app.
+Here is the [starter code for this assignment](starter-code). This consists of an application as described above. Your task is to add 3D Touch functionality to the app.
 
 Here is the [documentation](https://developer.apple.com/ios/3d-touch/) for 3D Touch. Remember that your app will need TWO integration points in AppDelegate: One in application:didFinishLaunchingWithOptions and one in application:performActionForShortcutItem.
 
@@ -38,6 +38,6 @@ Fork this repository using Github, then clone your fork to your computer. Naviga
 
 #### Assessment
 
-Your edited project should meet all of the specifications described, and [will be evaluated by the following rubric](/rubric.md). Still can't figure it out? Talk with your instructor and review the solution code (once posted).
+Your edited project should meet all of the specifications described, and [will be evaluated by the following rubric](rubric.md). Still can't figure it out? Talk with your instructor and review the solution code (once posted).
 
-> [Solution code](/solution-code)
+> [Solution code](solution-code)

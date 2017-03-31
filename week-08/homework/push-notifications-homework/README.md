@@ -26,7 +26,7 @@ By the end of this homework, you should be able to add local notification functi
 
 #### Starter code
 
-Here is the [starter code for this assignment](/starter-code). This consists of an application as described above. Your task is to add local push notification functionality to the app.
+Here is the [starter code for this assignment](starter-code). This consists of an application as described above. Your task is to add local push notification functionality to the app.
 
 #### Deliverable
 
@@ -38,4 +38,4 @@ Fork this repository using Github, then clone your fork to your computer. Naviga
 
 Your edited project should meet all of the specifications described, and [will be evaluated by the following rubric](/rubric.md). Still can't figure it out? Talk with your instructor and review the solution code (once posted).
 
-> [Solution code](/solution-code)
+> [Solution code](solution-code)
