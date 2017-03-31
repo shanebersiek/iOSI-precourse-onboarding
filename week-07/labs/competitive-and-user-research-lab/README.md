@@ -33,7 +33,7 @@ For your competitive research:
   - If you choose choose feature inventory focus on this question: What features do they offer?
   - If you choose + / Δ, focus on these questions: What does each do well? What does each do poorly?
 
-After you're finished with your competitive research, for the remainder of the lab, you're going to come up with a research plan using the [Research Plan Template](starter-assets/research-plan-template.pdf). Write a short research plan for your final project that answers the following:
+After you're finished with your competitive research, for the remainder of the lab, you're going to come up with a research plan using the [Research Plan Template](starter-assets/research-plan-worksheet.pdf). Write a short research plan for your final project that answers the following:
 
   - What area(s) are you interested in researching?
   - What are your research goals? What are you trying to learn about your topic?
