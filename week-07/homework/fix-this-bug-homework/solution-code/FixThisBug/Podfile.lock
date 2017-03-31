@@ -1,0 +1,19 @@
+PODS:
+  - RedditClient (0.1.0)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+
+DEPENDENCIES:
+  - RedditClient (from `../resources/RedditClient`)
+  - SDWebImage (~> 3.7)
+
+EXTERNAL SOURCES:
+  RedditClient:
+    :path: ../resources/RedditClient
+
+SPEC CHECKSUMS:
+  RedditClient: 84e08555e2f436e8f6bed52645362aba29751152
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+
+COCOAPODS: 0.39.0
