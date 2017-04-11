@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11163.2" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11133"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PublicationPreparationLab" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tJC-oT-qfR">
+                                <color key="backgroundColor" red="0.36794147459999998" green="1" blue="0.33581923619999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="topButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0lv-yX-dR7"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WMZ-qg-zcx">
+                                <color key="backgroundColor" red="0.2534345918" green="0.53219588120000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="bottomButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iz6-vz-GZB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="tJC-oT-qfR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="1h0-OF-qK4"/>
+                            <constraint firstItem="tJC-oT-qfR" firstAttribute="height" secondItem="WMZ-qg-zcx" secondAttribute="height" id="4r9-p1-w35"/>
+                            <constraint firstAttribute="trailing" secondItem="tJC-oT-qfR" secondAttribute="trailing" constant="16" id="6Cc-Ki-d3D"/>
+                            <constraint firstAttribute="trailing" secondItem="WMZ-qg-zcx" secondAttribute="trailing" constant="16" id="F0r-Bm-UHc"/>
+                            <constraint firstItem="WMZ-qg-zcx" firstAttribute="top" secondItem="tJC-oT-qfR" secondAttribute="bottom" constant="8" id="arI-Ee-L3j"/>
+                            <constraint firstItem="tJC-oT-qfR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="fcl-by-PK8"/>
+                            <constraint firstItem="WMZ-qg-zcx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="hWp-kd-5pA"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WMZ-qg-zcx" secondAttribute="bottom" constant="20" id="kIg-tY-v67"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bottomButton" destination="WMZ-qg-zcx" id="7oq-X5-zRf"/>
+                        <outlet property="topButton" destination="tJC-oT-qfR" id="DOY-Zg-vDa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
+        </scene>
+    </scenes>
+</document>
