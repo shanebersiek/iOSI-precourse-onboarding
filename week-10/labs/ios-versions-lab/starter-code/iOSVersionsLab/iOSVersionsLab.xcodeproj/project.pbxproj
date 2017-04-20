@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B0D5FF61EA938A2003CCD9C /* AddressBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0D5FF51EA938A2003CCD9C /* AddressBook.swift */; };
+		8B0D5FF91EA938B3003CCD9C /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0D5FF81EA938B3003CCD9C /* AddressBook.framework */; };
+		8B0D5FFB1EA93A9B003CCD9C /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0D5FFA1EA93A9B003CCD9C /* Contacts.framework */; };
 		B37AFE6C1D46868100F7A6ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37AFE6B1D46868100F7A6ED /* AppDelegate.swift */; };
 		B37AFE6E1D46868100F7A6ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37AFE6D1D46868100F7A6ED /* ViewController.swift */; };
 		B37AFE711D46868100F7A6ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37AFE6F1D46868100F7A6ED /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B0D5FF51EA938A2003CCD9C /* AddressBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressBook.swift; sourceTree = "<group>"; };
+		8B0D5FF81EA938B3003CCD9C /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		8B0D5FFA1EA93A9B003CCD9C /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
 		B37AFE681D46868100F7A6ED /* iOSVersionsLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSVersionsLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B37AFE6B1D46868100F7A6ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B37AFE6D1D46868100F7A6ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +35,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B0D5FFB1EA93A9B003CCD9C /* Contacts.framework in Frameworks */,
+				8B0D5FF91EA938B3003CCD9C /* AddressBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B0D5FF71EA938B2003CCD9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B0D5FFA1EA93A9B003CCD9C /* Contacts.framework */,
+				8B0D5FF81EA938B3003CCD9C /* AddressBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B37AFE5F1D46868100F7A6ED = {
 			isa = PBXGroup;
 			children = (
 				B37AFE6A1D46868100F7A6ED /* iOSVersionsLab */,
 				B37AFE691D46868100F7A6ED /* Products */,
+				8B0D5FF71EA938B2003CCD9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +74,7 @@
 			children = (
 				B37AFE6B1D46868100F7A6ED /* AppDelegate.swift */,
 				B37AFE6D1D46868100F7A6ED /* ViewController.swift */,
+				8B0D5FF51EA938A2003CCD9C /* AddressBook.swift */,
 				B37AFE6F1D46868100F7A6ED /* Main.storyboard */,
 				B37AFE721D46868100F7A6ED /* Assets.xcassets */,
 				B37AFE741D46868100F7A6ED /* LaunchScreen.storyboard */,
@@ -91,7 +110,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "General Assembly";
 				TargetAttributes = {
 					B37AFE671D46868100F7A6ED = {
@@ -138,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B0D5FF61EA938A2003CCD9C /* AddressBook.swift in Sources */,
 				B37AFE6E1D46868100F7A6ED /* ViewController.swift in Sources */,
 				B37AFE6C1D46868100F7A6ED /* AppDelegate.swift in Sources */,
 			);
@@ -180,8 +200,10 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -203,7 +225,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -228,8 +250,10 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -245,7 +269,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

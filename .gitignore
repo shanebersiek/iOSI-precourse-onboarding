@@ -35,5 +35,7 @@ Temporary Items
 # End of https://www.gitignore.io/api/macos
 
 # Week-10
-week-10/**/solution-code/**
-!week-10/labs/custom-ui-views-lab/solution-code/**
+week-10/labs/publication-preparation-lab/
+
+# Week-11
+week-11/**/solution-code/**

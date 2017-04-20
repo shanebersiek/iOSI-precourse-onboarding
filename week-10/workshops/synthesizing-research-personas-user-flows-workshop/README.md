@@ -14,7 +14,7 @@ creator:
 
 > ***Note:*** _This can be a pair programming activity or done independently._
 
-Now, it's time to create personas, a problem statement, and sketch out some user flows for your final project - take the research from your homework interviews, affinity map and build personas using new [Personas Worksheets](assets/personas-worksheet.ai).
+Now, it's time to create personas, a problem statement, and sketch out some user flows for your final project - take the research from your homework interviews, affinity map and build personas using new [Personas Worksheets](assets/persona-worksheet.ai).
 
 ## Exercise
 
@@ -52,11 +52,11 @@ How are you going to get your persona to complete their primary user goal? Creat
 
 #### Starter assets
 
-Be sure to grab and print the [Personas Worksheet](assets/personas-worksheet.ai), the [Problem Statement Worksheet](assets/problem-statement-worksheet.pdf),  the [Storyboard Worksheet](assets/storyboard-worksheet.pdf), and the [Research Highlights Worksheet](assets/research-highlights-worksheet.ai) from the assets folder to start working.
+Be sure to grab and print the [Personas Worksheet](assets/persona-worksheet.ai), the [Problem Statement Worksheet](assets/problem-statement-worksheet.pdf),  the [Storyboard Worksheet](assets/storyboard-worksheet.pdf), and the [Research Highlights Worksheet](assets/research-highlights-worksheet.ai) from the assets folder to start working.
 
 #### Deliverable
 
-By the end of this week, you should submit a pull request for your final project with all of your research work; included in that pull request should be the deliverables (or proof of the deliverables) from this lab included in or linked to in your final project's readme file - read more about project 4's deliverable schedule [here](../../projects/project-04).
+By the end of this week, you should submit a pull request for your final project with all of your research work; included in that pull request should be the deliverables (or proof of the deliverables) from this lab included in or linked to in your final project's readme file - read more about project 4's deliverable schedule [here](https://git.generalassemb.ly/iosi/sf-01-projects/tree/master/project-04).
 
 ## Additional Resources
 
