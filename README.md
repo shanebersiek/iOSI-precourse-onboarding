@@ -11,6 +11,9 @@ This repository contains all the homework and labs for the course. Like the mate
 - [Week 5](week-05)
 - [Week 7](week-07)
 - [Week 8](week-08)
+- [Week 9](week-09)
+- [Week 10](week-10)
+- [Week 11](week-11)
 
 ## Repo Structure and Use
 
