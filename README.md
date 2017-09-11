@@ -2,7 +2,7 @@
 
 ## Homework & Labs
 
-This repository contains all the homework and labs for the course. Like the materials repository, we've organized the labs & homeworks by week. Check out Week 11 [here](week-11)!
+This repository contains all the homework and labs for the course. Like the materials repository, we've organized the labs & homeworks by week:
 
 - [Week 1](week-01)
 - [Week 2](week-02)
@@ -19,7 +19,7 @@ This repository contains all the homework and labs for the course. Like the mate
 
 ### What's in here?
 
-- This is the repository that contains all your homeworks and labs!
+- This is the repository that contains all homeworks and labs!
 - Weekly directories contain two folders, one for labs and one for homework
 
 
