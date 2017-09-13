@@ -30,7 +30,7 @@ While coding and testing on the Simulator is fine for the beginning stages of an
 
 ### Requirements
 
-+ Create an App using the Icon ![Icon](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) included in the [assets/icon](/assets) folder of the git repo for this lab.
++ Create an App using the Icon ![Icon](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) included in the [/assets](assets) folder of the git repo for this lab.
 
 + Run the App on a real iPhone.
 
