@@ -38,8 +38,6 @@ Xcode Playgrounds allows you to write and test code quickly and cheaply. This is
 
 + Write code that takes the average temperature of the last 5 days in your hometown
 
-+ Show a profile picture of yourself, using a `UIImageView`
-
 + Solve the following math problems in Swift:
     + Heather drove at a constant speed and traveled 182.4 miles in 3 hours. How many miles would Heather travel in a week at the same speed?
     + Yei is a cashier. She can ring up 12 customers in 20 minutes. At this rate, how long would it take for her to ring up 1000 customers?
@@ -54,6 +52,9 @@ There is no starter code provided for this Lab.
 Solution code can be found in [solution-code](solution-code).
 
 ### Bonus Activities
+
++ Show a profile picture of yourself, using a `UIImageView`
+>Hint: You can use `from(link: "link")` to convert a URL directly into a `UIImageView`
 
 + Show a picture of your favorite place, using a `UIImageView`
 
