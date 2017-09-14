@@ -27,7 +27,7 @@ Partners will be referred to as partner1 and partner2.
 
 - create a folder called `git-and-github-practice` (not inside any existing git repo)
 - within that folder create a new Xcode Project
-- in that project, add a class named `Car`
+- in that project, add a new Swift file named `Car`
 - initiate a git repository, commit your changes, and push to GitHub
 
 
@@ -35,8 +35,8 @@ Partners will be referred to as partner1 and partner2.
 
 - get your partner's link to the GitHub repository and fork and clone it
 - import the project
-    - add three instance variables to the Car class
-    - add a new class, `Garage`
+    - make some changes to the Car file
+    - add a new file, `Garage`
 - commit your changes and submit a pull request back to partner1
 
 
@@ -82,7 +82,7 @@ Nothing to turn into the instructors, but you should have two separate GitHub re
 - [Git documentation](https://git-scm.com/documentation)
 - [Forking on github](https://help.github.com/articles/fork-a-repo/)
 - [Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
-- [How to use Source Control with Xcode and iOS 7](https://www.raywenderlich.com/51351/how-to-use-git-source-control-with-xcode-in-ios-7) 
+- [How to use Source Control with Xcode and iOS 7](https://www.raywenderlich.com/51351/how-to-use-git-source-control-with-xcode-in-ios-7)
 
 
 > Note: This tutorial is written in Objective-C but don't worry, you'll still be able to understand! And it's good practice to be able to read through Objective-C
