@@ -2,10 +2,14 @@
 
 import UIKit
 
+
+var varCounter = 0
 var string = "Hello Playground"
+varCounter += 1
 string += ". Let's play around the ground."
 
 let length = string.characters.count
+varCounter += 1
 
 print ("Length of String is \(length)")
 

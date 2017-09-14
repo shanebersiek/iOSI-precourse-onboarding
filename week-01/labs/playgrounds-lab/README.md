@@ -28,13 +28,15 @@ Xcode Playgrounds allows you to write and test code quickly and cheaply. This is
 
 ### Requirements
 
-+ Create a new Playgrounds Project in Xcode
++ Open the [starter playground](starter-code)
 
 + Say something about yourself using the `print()` command
 
 + List and print what languages you know (Human or Computer)
 
 + Print a quote from your favorite movie
+
++ Show a profile picture of yourself, using a `UIImageView`
 
 + Write code that takes the average temperature of the last 5 days in your hometown
 
@@ -45,7 +47,7 @@ Xcode Playgrounds allows you to write and test code quickly and cheaply. This is
 
 
 ### Starter code
-There is no starter code provided for this Lab.
+Starter code can be found in [starter-code](starter-code).
 
 
 ### Solution Code
@@ -53,8 +55,7 @@ Solution code can be found in [solution-code](solution-code).
 
 ### Bonus Activities
 
-+ Show a profile picture of yourself, using a `UIImageView`
->Hint: You can use `from(link: "link")` to convert a URL directly into a `UIImageView`
++ Create a variable to count the number of other variables in your program. Make sure to keep it up to date as you add more code!
 
 + Show a picture of your favorite place, using a `UIImageView`
 
