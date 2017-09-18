@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CustomUIViewsLab" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i21-qx-cWe" customClass="BarChart" customModule="CustomUIViewsLab" customModuleProvider="target">
+                                <rect key="frame" x="20" y="40" width="335" height="293.5"/>
+                                <color key="backgroundColor" red="0.2534345918" green="0.53219588120000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="barColor">
+                                        <color key="value" red="1" green="0.92328426320000001" blue="0.20057186199999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="85o-hB-VN8">
+                                <rect key="frame" x="20" y="353.5" width="335" height="293.5"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rqs-nS-rse">
+                                        <rect key="frame" x="8" y="8" width="319" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="wGP-xN-dzA"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" red="0.2534345918" green="0.53219588120000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="rqs-nS-rse" firstAttribute="top" secondItem="85o-hB-VN8" secondAttribute="top" constant="8" id="CBo-Xd-d1g"/>
+                                    <constraint firstItem="rqs-nS-rse" firstAttribute="leading" secondItem="85o-hB-VN8" secondAttribute="leading" constant="8" id="Uwb-gr-f6E"/>
+                                    <constraint firstAttribute="trailing" secondItem="rqs-nS-rse" secondAttribute="trailing" constant="8" id="u6O-Tp-mY3"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="i21-qx-cWe" secondAttribute="trailing" constant="20" id="5x2-rZ-a49"/>
+                            <constraint firstItem="i21-qx-cWe" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="KOA-Qe-Xov"/>
+                            <constraint firstAttribute="trailing" secondItem="85o-hB-VN8" secondAttribute="trailing" constant="20" id="NDI-CB-od6"/>
+                            <constraint firstItem="i21-qx-cWe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="VIV-ee-faf"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="85o-hB-VN8" secondAttribute="bottom" constant="20" id="dN1-FL-acA"/>
+                            <constraint firstItem="85o-hB-VN8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="eAq-p5-UQa"/>
+                            <constraint firstItem="85o-hB-VN8" firstAttribute="top" secondItem="i21-qx-cWe" secondAttribute="bottom" constant="20" id="mzV-nD-KhC"/>
+                            <constraint firstItem="i21-qx-cWe" firstAttribute="height" secondItem="85o-hB-VN8" secondAttribute="height" id="y9v-7t-3A5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="barChart" destination="i21-qx-cWe" id="qIu-hJ-lcM"/>
+                        <outlet property="entryField" destination="rqs-nS-rse" id="frT-aB-ba9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PlatformIntegrationLab" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloudy-weather-landscape-wallpaper.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="3tF-45-w3B">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.40000000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="wNr-NE-nBu">
+                                <rect key="frame" x="120" y="122" width="360" height="147"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="143" id="0BP-r1-96p"/>
+                                    <constraint firstAttribute="width" secondItem="wNr-NE-nBu" secondAttribute="height" multiplier="32:13" id="Qeg-Hd-nO4"/>
+                                    <constraint firstAttribute="width" constant="352" id="cW4-K5-EhD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="120"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="0BP-r1-96p"/>
+                                        <exclude reference="cW4-K5-EhD"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's your goal for today?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="txO-op-UaE">
+                                <rect key="frame" x="90" y="277" width="420" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="450" id="Cm5-cb-n3l"/>
+                                    <constraint firstAttribute="height" constant="50" id="E73-Pq-74R"/>
+                                    <constraint firstAttribute="width" secondItem="txO-op-UaE" secondAttribute="height" multiplier="9:1" id="Jyb-PE-41U"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Cm5-cb-n3l"/>
+                                        <exclude reference="E73-Pq-74R"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="_________________________" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1zn-cA-9CF">
+                                <rect key="frame" x="90" y="343" width="420" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="1zn-cA-9CF" secondAttribute="height" multiplier="15:1" id="3v4-Hg-ndT"/>
+                                    <constraint firstAttribute="height" constant="30" id="jw0-mF-rTC"/>
+                                    <constraint firstAttribute="width" constant="450" id="tIm-6D-zCL"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="jw0-mF-rTC"/>
+                                        <exclude reference="tIm-6D-zCL"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3tF-45-w3B" secondAttribute="bottom" id="86V-9k-qFD"/>
+                            <constraint firstItem="1zn-cA-9CF" firstAttribute="top" secondItem="txO-op-UaE" secondAttribute="bottom" constant="20" id="B2p-TW-AvA"/>
+                            <constraint firstAttribute="trailing" secondItem="3tF-45-w3B" secondAttribute="trailing" id="BJV-V0-KyT"/>
+                            <constraint firstItem="txO-op-UaE" firstAttribute="width" secondItem="3tF-45-w3B" secondAttribute="width" multiplier="0.7" id="CHY-4O-mSh"/>
+                            <constraint firstItem="1zn-cA-9CF" firstAttribute="width" secondItem="3tF-45-w3B" secondAttribute="width" multiplier="0.7" id="Dbp-jZ-F44"/>
+                            <constraint firstItem="3tF-45-w3B" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="K52-QV-vAo"/>
+                            <constraint firstItem="txO-op-UaE" firstAttribute="top" secondItem="wNr-NE-nBu" secondAttribute="bottom" constant="8" id="LHU-63-FHx"/>
+                            <constraint firstItem="wNr-NE-nBu" firstAttribute="width" secondItem="3tF-45-w3B" secondAttribute="width" multiplier="0.6" id="WBF-1S-Oys"/>
+                            <constraint firstItem="3tF-45-w3B" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Xlr-aS-sYC"/>
+                            <constraint firstItem="txO-op-UaE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kdR-D5-xZ4"/>
+                            <constraint firstItem="txO-op-UaE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mnW-pI-WIJ"/>
+                            <constraint firstItem="1zn-cA-9CF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tya-ey-apN"/>
+                            <constraint firstItem="wNr-NE-nBu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ykC-rb-3sk"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="clockLabel" destination="wNr-NE-nBu" id="eUU-5e-zfS"/>
+                        <outlet property="goalEntryField" destination="1zn-cA-9CF" id="y1e-k5-bqS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="431" y="297"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cloudy-weather-landscape-wallpaper.jpeg" width="1920" height="1080"/>
+    </resources>
+</document>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11163.2" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="N9g-LH-RgX">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11133"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Giphy View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="GiphyViewController" customModule="InteractiveUIsLab" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" placeholder="Search GIFs..." translatesAutoresizingMaskIntoConstraints="NO" id="ZWS-cY-riJ">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="0Wz-b9-qae"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="66X-dO-ixK"/>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="66X-dO-ixK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="63A-Kp-Kkt"/>
+                            <constraint firstItem="ZWS-cY-riJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="CQX-Uh-nrj"/>
+                            <constraint firstItem="66X-dO-ixK" firstAttribute="top" secondItem="ZWS-cY-riJ" secondAttribute="bottom" constant="24" id="MaG-bQ-BIE"/>
+                            <constraint firstAttribute="trailing" secondItem="ZWS-cY-riJ" secondAttribute="trailing" id="UHX-oe-bU9"/>
+                            <constraint firstItem="ZWS-cY-riJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="b8M-XE-IDU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="66X-dO-ixK" secondAttribute="trailing" id="gfZ-u0-U4f"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="66X-dO-ixK" secondAttribute="bottom" id="sTk-Kc-Fnm"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Kzi-Og-ez7">
+                        <barButtonItem key="leftBarButtonItem" title="Clear" id="HkQ-zj-gh4">
+                            <connections>
+                                <action selector="onClear:" destination="BYZ-38-t0r" id="7ad-32-33m"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="LGP-wn-kWA">
+                            <connections>
+                                <action selector="onShare:" destination="BYZ-38-t0r" id="Vi7-7X-MJj"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="gifImage" destination="66X-dO-ixK" id="JKe-W6-xvC"/>
+                        <outlet property="searchBar" destination="ZWS-cY-riJ" id="wLa-sz-oBg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1759" y="-539"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="CXl-il-U7t">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="N9g-LH-RgX" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="W7j-Ur-bt1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.3333333432674408" green="0.54509806632995605" blue="0.18431372940540314" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="fq4-PU-3en"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fDl-Pg-N00" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="200.80000000000001" y="-545.57721139430294"/>
+        </scene>
+    </scenes>
+</document>

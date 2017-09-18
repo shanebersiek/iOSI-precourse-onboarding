@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11163.2" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11133"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="General-Assembly" translatesAutoresizingMaskIntoConstraints="NO" id="SNm-iF-iJv"/>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32156862745098042" green="0.0" blue="0.69803921568627447" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="SNm-iF-iJv" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="99g-4k-oVL"/>
+                            <constraint firstItem="SNm-iF-iJv" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.5" id="XAb-8Q-xPM"/>
+                            <constraint firstAttribute="trailing" secondItem="SNm-iF-iJv" secondAttribute="trailing" id="g04-pI-48w"/>
+                            <constraint firstItem="SNm-iF-iJv" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="qpH-Li-6pq"/>
+                            <constraint firstItem="SNm-iF-iJv" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="zeZ-MK-TjH"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="99g-4k-oVL"/>
+                                <exclude reference="XAb-8Q-xPM"/>
+                                <exclude reference="g04-pI-48w"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="99g-4k-oVL"/>
+                                <include reference="g04-pI-48w"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="XAb-8Q-xPM"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="General-Assembly" width="500" height="350"/>
+    </resources>
+</document>

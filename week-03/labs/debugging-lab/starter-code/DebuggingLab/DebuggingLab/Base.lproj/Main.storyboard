@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="MGM-cZ-Pj9">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Flower List View Controller-->
+        <scene sceneID="hNt-Ox-9Gd">
+            <objects>
+                <tableViewController id="MGM-cZ-Pj9" customClass="FlowerListViewController" customModule="DebuggingLab" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="150" sectionHeaderHeight="28" sectionFooterHeight="28" id="QwZ-Sj-9Ue">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FlowerCell" rowHeight="150" id="pW4-Xk-cXG" customClass="FlowerCell" customModule="DebuggingLab" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="600" height="150"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pW4-Xk-cXG" id="8TZ-kf-JI1">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="149.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flower-2" translatesAutoresizingMaskIntoConstraints="NO" id="NxM-lY-LQ6">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="149.5"/>
+                                        </imageView>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oe5-Or-fkS">
+                                            <rect key="frame" x="0.0" y="104" width="600" height="45"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lilies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hcy-cJ-8rg">
+                                                    <rect key="frame" x="274" y="8" width="52" height="29"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.66764547413793107" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="45" id="5n7-y2-h2o"/>
+                                                <constraint firstItem="Hcy-cJ-8rg" firstAttribute="centerY" secondItem="oe5-Or-fkS" secondAttribute="centerY" id="gXE-cC-W15"/>
+                                                <constraint firstItem="Hcy-cJ-8rg" firstAttribute="centerX" secondItem="oe5-Or-fkS" secondAttribute="centerX" id="zST-kW-gcZ"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="NxM-lY-LQ6" firstAttribute="top" secondItem="8TZ-kf-JI1" secondAttribute="top" id="0fS-jD-fAv"/>
+                                        <constraint firstAttribute="trailing" secondItem="oe5-Or-fkS" secondAttribute="trailing" id="AFR-bo-CTb"/>
+                                        <constraint firstAttribute="bottom" secondItem="NxM-lY-LQ6" secondAttribute="bottom" id="L3I-gX-wol"/>
+                                        <constraint firstItem="oe5-Or-fkS" firstAttribute="leading" secondItem="8TZ-kf-JI1" secondAttribute="leading" id="RZA-9Y-Ij2"/>
+                                        <constraint firstItem="NxM-lY-LQ6" firstAttribute="leading" secondItem="8TZ-kf-JI1" secondAttribute="leading" id="WON-rr-Ay6"/>
+                                        <constraint firstAttribute="trailing" secondItem="NxM-lY-LQ6" secondAttribute="trailing" id="cGb-na-h7C"/>
+                                        <constraint firstAttribute="bottom" secondItem="oe5-Or-fkS" secondAttribute="bottom" id="fnw-6J-2am"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="flowerImage" destination="NxM-lY-LQ6" id="MHc-qV-Cnu"/>
+                                    <outlet property="flowerNameLabel" destination="Hcy-cJ-8rg" id="vdV-1r-3Su"/>
+                                    <outlet property="transparencyLayer" destination="oe5-Or-fkS" id="0Xo-1X-4tH"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="MGM-cZ-Pj9" id="Kq7-iD-3K0"/>
+                            <outlet property="delegate" destination="MGM-cZ-Pj9" id="ZkH-y1-2b9"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="gkF-qA-EzR">
+                        <nil key="title"/>
+                        <view key="titleView" contentMode="scaleToFill" id="1cu-x5-62S">
+                            <rect key="frame" x="180" y="5.5" width="240" height="33"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOCUST" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zFl-Qp-0No">
+                                    <rect key="frame" x="0.0" y="0.0" width="240" height="33"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                    <color key="textColor" red="0.22352941179999999" green="0.23137254900000001" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="zFl-Qp-0No" secondAttribute="bottom" id="62Z-wL-3qo"/>
+                                <constraint firstItem="zFl-Qp-0No" firstAttribute="leading" secondItem="1cu-x5-62S" secondAttribute="leading" id="GfI-uR-CMe"/>
+                                <constraint firstAttribute="trailing" secondItem="zFl-Qp-0No" secondAttribute="trailing" id="IFE-OE-gZ0"/>
+                                <constraint firstItem="zFl-Qp-0No" firstAttribute="top" secondItem="1cu-x5-62S" secondAttribute="top" id="g1y-0S-aGA"/>
+                            </constraints>
+                        </view>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="p0o-5L-oWl" kind="show" identifier="ToFlower" id="c76-Hb-7xA"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kGR-ok-hNg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="485" y="495"/>
+        </scene>
+        <!--Flower View Controller-->
+        <scene sceneID="zyv-Qf-bpH">
+            <objects>
+                <viewController id="p0o-5L-oWl" customClass="FlowerViewController" customModule="DebuggingLab" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZE6-Yc-Tya"/>
+                        <viewControllerLayoutGuide type="bottom" id="AAv-Ru-NXl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VPI-k2-E9q">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flower-10" translatesAutoresizingMaskIntoConstraints="NO" id="MVM-cB-Q5C">
+                                <rect key="frame" x="0.0" y="64" width="600" height="240"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anthurium" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M9Z-ZI-b1N">
+                                <rect key="frame" x="20" y="334" width="560" height="29"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="24"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="R6J-bE-L8x">
+                                <rect key="frame" x="20" y="371" width="560" height="229"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">In Greek, the name Anthurium means tail flower. The plant's stem lengths may grow to a height of 15-20 inches depending on the size of the spathe, i.e., the bigger the spathe, the longer the stem. Its leaves are usually simple, large, attractively colored and borne on long stalks. 
+
+The flowering stalk is slender, ending in a fleshy column crowded with many unisexual flowers. They have leafy bracts which may be white, yellow, red, pink, orange or green.</string>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MVM-cB-Q5C" firstAttribute="height" secondItem="VPI-k2-E9q" secondAttribute="height" multiplier="0.4" id="7ao-ll-38O"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="M9Z-ZI-b1N" secondAttribute="trailing" id="DGV-TF-3ot"/>
+                            <constraint firstItem="MVM-cB-Q5C" firstAttribute="leading" secondItem="VPI-k2-E9q" secondAttribute="leading" id="Gd5-AW-VvY"/>
+                            <constraint firstItem="R6J-bE-L8x" firstAttribute="top" secondItem="M9Z-ZI-b1N" secondAttribute="bottom" constant="8" id="S2i-y6-yoX"/>
+                            <constraint firstItem="M9Z-ZI-b1N" firstAttribute="top" secondItem="MVM-cB-Q5C" secondAttribute="bottom" constant="30" id="Vlo-1w-CPs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="R6J-bE-L8x" secondAttribute="trailing" id="Zs6-0I-awM"/>
+                            <constraint firstItem="MVM-cB-Q5C" firstAttribute="top" secondItem="ZE6-Yc-Tya" secondAttribute="bottom" id="djX-XM-rBL"/>
+                            <constraint firstAttribute="trailing" secondItem="MVM-cB-Q5C" secondAttribute="trailing" id="fL4-XC-y2T"/>
+                            <constraint firstItem="AAv-Ru-NXl" firstAttribute="top" secondItem="R6J-bE-L8x" secondAttribute="bottom" id="lTe-oD-BRz"/>
+                            <constraint firstItem="R6J-bE-L8x" firstAttribute="leading" secondItem="VPI-k2-E9q" secondAttribute="leadingMargin" id="qRx-nH-bLL"/>
+                            <constraint firstItem="M9Z-ZI-b1N" firstAttribute="leading" secondItem="VPI-k2-E9q" secondAttribute="leadingMargin" id="thi-Cz-f9I"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="flowerDescriptionTextField" destination="R6J-bE-L8x" id="Igl-H5-zmw"/>
+                        <outlet property="flowerImage" destination="MVM-cB-Q5C" id="XYS-D6-Mfk"/>
+                        <outlet property="flowerNameLabel" destination="M9Z-ZI-b1N" id="jfM-92-CtZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zdi-JV-B4F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1228" y="495"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="wdo-VL-82K">
+            <objects>
+                <navigationController id="Nf3-UQ-NST" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="edB-l7-lFQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.1058823529" green="0.12549019610000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.97254901959999995" green="0.90588235289999997" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="MGM-cZ-Pj9" kind="relationship" relationship="rootViewController" id="zLb-4b-Quf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5aj-Qb-tDP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-335" y="495"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Flower-10" width="1600" height="1200"/>
+        <image name="Flower-2" width="2960" height="1850"/>
+    </resources>
+</document>
